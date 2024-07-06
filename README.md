@@ -67,7 +67,7 @@ train:
 	--model convnext_tiny --drop_path 0.1 \
 	--batch_size 64 --lr 4e-3 --update_freq 4 \
 	--model_ema true --model_ema_eval true \
-	--data_path /home1/dataset/ImageNet/
+	--data_path /home1/dataset/ImageNet/ \
 	--output_dir /home1/science103555/ckp_weight/ConvNeXt/
 ```
 train
